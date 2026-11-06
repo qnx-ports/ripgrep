@@ -115,3 +115,7 @@ ripgrep (rg) recursively searches your current directory for a regex pattern.
 By default, ripgrep will respect your .gitignore and automatically skip hidden
 files/directories and binary files.
 """
+
+[patch.crates-io]
+memmap2 = { git = "https://github.com/qnx-ports/memmap2-rs", tag = "qnx-v0.9.12_p0" }
+libc = { git = "https://github.com/qnx-ports/libc-rs.git", branch = "qnx-0.2.190" }

@@ -279,9 +279,8 @@ checksum = "803ec87c9cfb29b9d2633f20cba1f488db3fd53f2158b1024cbefb47ba05d413"
 
 [[package]]
 name = "libc"
-version = "0.2.186"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68ab91017fe16c622486840e4c83c9a37afeff978bd239b5293d61ece587de66"
+version = "0.2.190"
+source = "git+https://github.com/qnx-ports/libc-rs.git?branch=qnx-0.2.190#7922b7013e535f357d895e4bdaffa9996b5976fb"
 
 [[package]]
 name = "log"
@@ -297,9 +296,8 @@ checksum = "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
 
 [[package]]
 name = "memmap2"
-version = "0.9.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d1219ed1b7f229ee7104d281dd01d6802fe28bb6e95d292942c4daacdeb798c0"
+version = "0.9.12"
+source = "git+https://github.com/qnx-ports/memmap2-rs?tag=qnx-v0.9.12_p0#f70e76235c699d23361d4b83fa244e55935343da"
 dependencies = [
  "libc",
 ]
